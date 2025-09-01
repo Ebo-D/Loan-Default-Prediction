@@ -31,7 +31,13 @@ The target column in the dataset is **`good or bad flag`**, where:
 - Accuracy  
 - Precision  
 - Recall  
-- F1 Score  
+- F1 Score
+
+##  Approach
+- Exploratory Data Analysis (EDA)
+- Feature engineering (encoding categorical columns, scaling numerical columns)
+- Tried models: Logistic Regression, Random Forest, LightGBM, Decision Tree, XGBoost
+- Evaluated with Accuracy, Precision, Recall, F1
 
 ## How to Run  
 
