@@ -46,7 +46,7 @@ The target column in the dataset is **`good or bad flag`**, where:
 
 3. open the notebook
   ```bash
-  jupyter notebook Loan_Default_Prediction.ipynb
+   jupyter notebook Loan_Default_Prediction.ipynb
 
 ## Results
 The dataset was imbalanced, so oversampling(SMOTE) was applied.While applied, it's to see it's working and not used in the testing of my dataset with my models and metrics
