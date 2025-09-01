@@ -45,16 +45,17 @@ The target column in the dataset is **`good or bad flag`**, where:
    pip install -r requirements.txt
 
 3. open the notebook
-  ```bash
+   ```bash
    jupyter notebook Loan_Default_Prediction.ipynb
 
 ## Results
-The dataset was imbalanced, so oversampling(SMOTE) was applied.While applied, it's to see it's working and not used in the testing of my dataset with my models and metrics
+-The dataset was imbalanced, so oversampling(SMOTE) was applied.While applied, it's to see it's working and not used in the testing of my dataset with my models and metrics
 
-Simpler models like Logistic Regression worked but didn’t perform as well.
+-Simpler models like Logistic Regression worked but didn’t perform as well.
 
-Random Forest gave the best balance of accuracy, Precision, Recall, and F1 Score with 78%
+-Random Forest gave the best balance of accuracy, Precision, Recall, and F1 Score with 78%
 
-These models are better at capturing default cases compared to the others.
+-These models are better at capturing default cases compared to the others.
 
-Conclusion: This project is part of my Data Science learning journey. The model will perform better if oversampling (SMOTE) is applied to my dataset and used dor the testing of the dataset.  
+## Conclusion: 
+-This project is part of my Data Science learning journey. The model will perform better if oversampling (SMOTE) is applied to my dataset and used dor the testing of the dataset.  
