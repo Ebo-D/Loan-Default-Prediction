@@ -57,5 +57,16 @@ The target column in the dataset is **`good or bad flag`**, where:
 
 -These models are better at capturing default cases compared to the others.
 
+## Deployment
+
+-The model has been deployed for real-time predictions.
+
+## Framework used: 
+-Streamlit
+
+## How to run
+    ```bash
+    streamlit run app.py
+ 
 ## Conclusion: 
 -This project is part of my Data Science learning journey. The model will perform better if oversampling (SMOTE) is applied to my dataset and used dor the testing of the dataset.  
